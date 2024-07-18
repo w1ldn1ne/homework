@@ -1,11 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        var number = 4;
+        var numberAllPlus = 4;
         var dog = 8.0;
-        System.out.println(dog + number);
+        var numberDogMinus = 3.5;
+        System.out.println((dog + numberAllPlus) - numberDogMinus);
         var cat = 3.6;
-        System.out.println(cat + number);
+        var numberCatMinus = 1.6;
+        System.out.println((cat + numberAllPlus) - numberCatMinus);
         var paper = 763789;
-        System.out.println(paper + number);
+        var numberPaperMinus = 7639;
+        System.out.println((paper + numberAllPlus) - numberPaperMinus);
     }
 }
